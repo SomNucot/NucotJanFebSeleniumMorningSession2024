@@ -24,7 +24,7 @@ public class Classconcept {
 		
 		Thread.sleep(5000);
 		
-		//locate the web webelement
+		//locate the web webelement+action
 		
 		odriver.findElement(By.className("login-email")).sendKeys("Nucot@gmail.com");
 		

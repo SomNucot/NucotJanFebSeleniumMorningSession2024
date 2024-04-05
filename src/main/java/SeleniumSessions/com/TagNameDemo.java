@@ -15,21 +15,18 @@ public class TagNameDemo {
 		//1.To launch the browser
 				WebDriverManager.firefoxdriver().setup();
 				
-				//ChromeDriver odriver=new ChromeDriver();
+				
 				
 				
 				WebDriver odriver=new ChromeDriver();
 				 
-				//FirefoxDriver odriver=new FirefoxDriver();
 				
-				//2.Pass the url to open the app
 				odriver.get("https://amazon.com");
 				
 				Thread.sleep(5000);
 				
-				//locate the web webelement
 				
-				//odriver.findElement(By.tagName("a"));
+				
 				
 				List<WebElement> olist=odriver.findElements(By.tagName("a"));
 				System.out.println(olist.size());
