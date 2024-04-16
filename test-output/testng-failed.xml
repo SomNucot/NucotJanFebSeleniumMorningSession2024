@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgSessionsconcepts.com.TestNGDemo">
+      <class name="TestNgSessionsconcepts.com.PriorityConcept">
         <methods>
-          <include name="closeApp"/>
+          <include name="closeAPP"/>
+          <include name="doLogin"/>
+          <include name="lauanchBrowser"/>
         </methods>
-      </class> <!-- TestNgSessionsconcepts.com.TestNGDemo -->
+      </class> <!-- TestNgSessionsconcepts.com.PriorityConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
