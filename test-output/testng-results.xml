@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T06:55:00 IST" name="Default suite" finished-at="2024-04-16T06:55:29 IST" duration-ms="29523">
+  <suite started-at="2024-04-17T07:01:59 IST" name="Default suite" finished-at="2024-04-17T07:02:52 IST" duration-ms="53180">
     <groups>
     </groups>
-    <test started-at="2024-04-16T06:55:00 IST" name="Default test" finished-at="2024-04-16T06:55:29 IST" duration-ms="29523">
-      <class name="TestNgSessionsconcepts.com.PriorityConcept">
-        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:00 IST" name="lauanchBrowser" finished-at="2024-04-16T06:55:09 IST" duration-ms="9947" status="PASS">
+    <test started-at="2024-04-17T07:01:59 IST" name="Default test" finished-at="2024-04-17T07:02:52 IST" duration-ms="53180">
+      <class name="TestNgSessionsconcepts.com.DropDownConcept">
+        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:01:59 IST" name="lauanchBrowser" finished-at="2024-04-17T07:02:08 IST" duration-ms="9130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauanchBrowser -->
-        <test-method signature="currentUrlOfThePage()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:09 IST" name="currentUrlOfThePage" finished-at="2024-04-16T06:55:10 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- currentUrlOfThePage -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:10 IST" name="closeAPP" finished-at="2024-04-16T06:55:10 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeAPP -->
-        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:10 IST" name="lauanchBrowser" finished-at="2024-04-16T06:55:17 IST" duration-ms="7639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauanchBrowser -->
-        <test-method signature="titleOfThePage()[pri:1, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:17 IST" name="titleOfThePage" finished-at="2024-04-16T06:55:17 IST" duration-ms="18" status="PASS">
+        <test-method signature="titleOfThePage()[pri:1, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:08 IST" name="titleOfThePage" finished-at="2024-04-17T07:02:09 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleOfThePage -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:17 IST" name="closeAPP" finished-at="2024-04-16T06:55:17 IST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:09 IST" name="closeAPP" finished-at="2024-04-17T07:02:09 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->
-        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:17 IST" name="lauanchBrowser" finished-at="2024-04-16T06:55:25 IST" duration-ms="7957" status="PASS">
+        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:09 IST" name="lauanchBrowser" finished-at="2024-04-17T07:02:16 IST" duration-ms="6713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauanchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:25 IST" name="doLogin" finished-at="2024-04-16T06:55:29 IST" duration-ms="3623" status="PASS">
+        <test-method signature="currentUrlOfThePage()[pri:2, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:16 IST" name="currentUrlOfThePage" finished-at="2024-04-17T07:02:16 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.PriorityConcept@6a84a97d]" started-at="2024-04-16T06:55:29 IST" name="closeAPP" finished-at="2024-04-16T06:55:29 IST" duration-ms="87" status="PASS">
+        </test-method> <!-- currentUrlOfThePage -->
+        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:16 IST" name="closeAPP" finished-at="2024-04-17T07:02:16 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->
-      </class> <!-- TestNgSessionsconcepts.com.PriorityConcept -->
+        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:16 IST" name="lauanchBrowser" finished-at="2024-04-17T07:02:22 IST" duration-ms="5792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauanchBrowser -->
+        <test-method signature="personalDetails()[pri:3, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:22 IST" name="personalDetails" finished-at="2024-04-17T07:02:52 IST" duration-ms="29934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalDetails -->
+        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.DropDownConcept@6a84a97d]" started-at="2024-04-17T07:02:52 IST" name="closeAPP" finished-at="2024-04-17T07:02:52 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAPP -->
+      </class> <!-- TestNgSessionsconcepts.com.DropDownConcept -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
