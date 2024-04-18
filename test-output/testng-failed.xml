@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgSessionsconcepts.com.PriorityConcept">
+      <class name="TestNgSessionsconcepts.com.DropDownDemo4">
         <methods>
-          <include name="closeAPP"/>
-          <include name="doLogin"/>
           <include name="lauanchBrowser"/>
+          <include name="dropDownExample"/>
+          <include name="closeAPP"/>
         </methods>
-      </class> <!-- TestNgSessionsconcepts.com.PriorityConcept -->
+      </class> <!-- TestNgSessionsconcepts.com.DropDownDemo4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
