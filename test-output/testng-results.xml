@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T07:34:20 IST" name="Default suite" finished-at="2024-04-22T07:34:56 IST" duration-ms="35441">
+  <suite started-at="2024-04-24T07:39:50 IST" name="Default suite" finished-at="2024-04-24T07:40:05 IST" duration-ms="14994">
     <groups>
     </groups>
-    <test started-at="2024-04-22T07:34:20 IST" name="Default test" finished-at="2024-04-22T07:34:56 IST" duration-ms="35441">
-      <class name="TestNgSessionsconcepts.com.AlertDemo4">
-        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.AlertDemo4@6a84a97d]" started-at="2024-04-22T07:34:20 IST" name="lauanchBrowser" finished-at="2024-04-22T07:34:31 IST" duration-ms="10855" status="PASS">
+    <test started-at="2024-04-24T07:39:50 IST" name="Default test" finished-at="2024-04-24T07:40:05 IST" duration-ms="14994">
+      <class name="TestNgSessionsconcepts.com.MultipleTabConcept">
+        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:39:50 IST" name="lauanchBrowser" finished-at="2024-04-24T07:40:02 IST" duration-ms="11078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauanchBrowser -->
-        <test-method signature="browserPopUp()[pri:1, instance:TestNgSessionsconcepts.com.AlertDemo4@6a84a97d]" started-at="2024-04-22T07:34:31 IST" name="browserPopUp" finished-at="2024-04-22T07:34:55 IST" duration-ms="24191" status="PASS">
+        <test-method signature="sigleWindowHandle()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:40:02 IST" name="sigleWindowHandle" finished-at="2024-04-24T07:40:05 IST" duration-ms="3769" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserPopUp -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.AlertDemo4@6a84a97d]" started-at="2024-04-22T07:34:55 IST" name="closeAPP" finished-at="2024-04-22T07:34:56 IST" duration-ms="334" status="PASS">
+        </test-method> <!-- sigleWindowHandle -->
+        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:40:05 IST" name="closeAPP" finished-at="2024-04-24T07:40:05 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->
-      </class> <!-- TestNgSessionsconcepts.com.AlertDemo4 -->
+      </class> <!-- TestNgSessionsconcepts.com.MultipleTabConcept -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

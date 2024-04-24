@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgSessionsconcepts.com.AlertDemo4">
+      <class name="TestNgSessionsconcepts.com.WindowHandleConcept">
         <methods>
-          <include name="lauanchBrowser"/>
-          <include name="browserPopUp"/>
+          <include name="windowHandle"/>
           <include name="closeAPP"/>
+          <include name="lauanchBrowser"/>
         </methods>
-      </class> <!-- TestNgSessionsconcepts.com.AlertDemo4 -->
+      </class> <!-- TestNgSessionsconcepts.com.WindowHandleConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
