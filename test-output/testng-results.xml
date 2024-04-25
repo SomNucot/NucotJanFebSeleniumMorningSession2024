@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T07:39:50 IST" name="Default suite" finished-at="2024-04-24T07:40:05 IST" duration-ms="14994">
+  <suite started-at="2024-04-25T07:51:40 IST" name="Default suite" finished-at="2024-04-25T07:52:29 IST" duration-ms="49657">
     <groups>
     </groups>
-    <test started-at="2024-04-24T07:39:50 IST" name="Default test" finished-at="2024-04-24T07:40:05 IST" duration-ms="14994">
-      <class name="TestNgSessionsconcepts.com.MultipleTabConcept">
-        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:39:50 IST" name="lauanchBrowser" finished-at="2024-04-24T07:40:02 IST" duration-ms="11078" status="PASS">
+    <test started-at="2024-04-25T07:51:40 IST" name="Default test" finished-at="2024-04-25T07:52:29 IST" duration-ms="49657">
+      <class name="TestNgSessionsconcepts.com.NestedFrame2">
+        <test-method is-config="true" signature="lauanchBrowser()[pri:0, instance:TestNgSessionsconcepts.com.NestedFrame2@6a84a97d]" started-at="2024-04-25T07:51:40 IST" name="lauanchBrowser" finished-at="2024-04-25T07:52:28 IST" duration-ms="48083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauanchBrowser -->
-        <test-method signature="sigleWindowHandle()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:40:02 IST" name="sigleWindowHandle" finished-at="2024-04-24T07:40:05 IST" duration-ms="3769" status="PASS">
+        <test-method signature="titleOfThePage()[pri:1, instance:TestNgSessionsconcepts.com.NestedFrame2@6a84a97d]" started-at="2024-04-25T07:52:28 IST" name="titleOfThePage" finished-at="2024-04-25T07:52:29 IST" duration-ms="1347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sigleWindowHandle -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.MultipleTabConcept@6c130c45]" started-at="2024-04-24T07:40:05 IST" name="closeAPP" finished-at="2024-04-24T07:40:05 IST" duration-ms="105" status="PASS">
+        </test-method> <!-- titleOfThePage -->
+        <test-method is-config="true" signature="closeAPP()[pri:0, instance:TestNgSessionsconcepts.com.NestedFrame2@6a84a97d]" started-at="2024-04-25T07:52:29 IST" name="closeAPP" finished-at="2024-04-25T07:52:29 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->
-      </class> <!-- TestNgSessionsconcepts.com.MultipleTabConcept -->
+      </class> <!-- TestNgSessionsconcepts.com.NestedFrame2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
