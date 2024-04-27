@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestNgSessionsconcepts.com.NestedFrame2" class="method navigator-link" hash-for-method="titleOfThePage">titleOfThePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestNgSessionsconcepts.com.DependOnDemo" class="method navigator-link" hash-for-method="homepage">homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNgSessionsconcepts.com.DependOnDemo" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +127,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestNgSessionsconcepts.com.NestedFrame2</span>
+              <span class="class-name">TestNgSessionsconcepts.com.DependOnDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="titleOfThePage">
-                  </a> <!-- titleOfThePage -->
-                  <span class="method-name">titleOfThePage</span>
+                  <a name="homepage">
+                  </a> <!-- homepage -->
+                  <span class="method-name">homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/1p/9tfzdcn904dg9w2vqsl_6msw0000gn/T/testng-eclipse--1901989141/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/1p/9tfzdcn904dg9w2vqsl_6msw0000gn/T/testng-eclipse--955795887/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestNgSessionsconcepts.com.NestedFrame2&quot;/&gt;
+      &lt;class name=&quot;TestNgSessionsconcepts.com.DependOnDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'titleOfThePage')
-data.setCell(0, 2, 'TestNgSessionsconcepts.com.NestedFrame2')
-data.setCell(0, 3, 1347);
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'TestNgSessionsconcepts.com.DependOnDemo')
+data.setCell(0, 3, 11);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'homepage')
+data.setCell(1, 2, 'TestNgSessionsconcepts.com.DependOnDemo')
+data.setCell(1, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,19 +237,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestNgSessionsconcepts.com.NestedFrame2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">lauanchBrowser</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">TestNgSessionsconcepts.com.DependOnDemo</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">titleOfThePage</span>
-                <span class="method-start">48094 ms</span>
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeAPP</span>
-                <span class="method-start">49447 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">homepage</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
